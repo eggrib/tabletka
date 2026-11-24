@@ -2,7 +2,7 @@
 
 Lightweight native desktop overlay pill and widget center for **Windows (.NET 8 / WPF)** with optional **Android** companion sync via `relay.699718.space`.
 
-- **Official Landing & Download:** [tabletka.699718.space](https://tabletka.699718.space/)
+- **Official Landing & Download:** [tabletka.699718.space](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo)
 - **Latest Windows x64 Installer:** [tabletka_0.9.8.44_x64_Setup.exe](https://699718.space/tabletka/tabletka_0.9.8.44_x64_Setup.exe)
 - **Contact & Support:** [@eggrib](https://t.me/eggrib)
 
@@ -21,7 +21,8 @@ Lightweight native desktop overlay pill and widget center for **Windows (.NET 8 
 
 ## Distribution Policy
 
-Official builds are distributed exclusively as compiled Windows x64 installers via [tabletka.699718.space](https://tabletka.699718.space/) and GitHub Releases. Source code is private to ensure binary integrity and prevent unauthorized clones.
+Official builds are distributed exclusively as compiled Windows x64 installers via [tabletka.699718.space](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo) and GitHub Releases. Source code is private to ensure binary integrity and prevent unauthorized clones.
+
 ### What's New in v0.9.8.44
 - **Gaming Mode Glow:** automatic island contour & audio-visualizer palette switch when a game is active (4 presets: Crimson, Emerald, Violet, Amber) + automatic game process priority boost.
 - **VPN-Free Media & Lossless FLAC Bridge:** seamless fallback via the 699718.space media bridge and automatic local proxy detection for YouTube, SoundCloud, and Deezer downloads without enabling a system VPN.
