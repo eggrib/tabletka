@@ -15,7 +15,7 @@ Lightweight native desktop overlay pill and widget center for **Windows (.NET 8 
 ## Key Features
 
 - **Compact Pill Form-Factor:** Edge-dragging top screen capsule with instant expansion into full widgets.
-- **16 Built-in Modules:** Media player & lossless FLAC/MP3 downloader, screen backdrop & recorder, clipboard screenshot auto-copy, system & market monitors, weather, notes, and quick actions.
+- **16 Built-in Modules:** Media player with live lyrics, clipboard link downloader, screen backdrop & recorder, screenshot auto-copy, File Shelf, system & market monitors, weather, notes, and quick actions.
 - **Performance & Throttling:** Two-thread download queue and smart background module throttling.
 - **10 Languages:** Full UI localization (`en`, `ru`, `de`, `fr`, `es`, `he`, `ja`, `ko`, `zh`, `tr`).
 
@@ -25,5 +25,5 @@ Official builds are distributed exclusively as compiled Windows x64 installers v
 
 ### What's New in v0.9.8.44
 - **Gaming Mode Glow:** automatic island contour & audio-visualizer palette switch when a game is active (4 presets: Crimson, Emerald, Violet, Amber) + automatic game process priority boost.
-- **VPN-Free Media & Lossless FLAC Bridge:** seamless fallback via the 699718.space media bridge and automatic local proxy detection for YouTube, SoundCloud, and Deezer downloads without enabling a system VPN.
+- **Resilient Media & Network Pipeline:** unified download queue with automatic fallback and local proxy detection for smoother clipboard link handling.
 - **Performance & Obfuscation Hardening:** unified SharedHttpService connection pooling, zero-reflection runtime paths, and full JSON model preservation under Obfuscar.
