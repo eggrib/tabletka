@@ -10,13 +10,21 @@ Lightweight native desktop overlay pill and widget center for **Windows (.NET 8 
 
 ![tabletka compact pill](assets/backdrop-392x105-20261123-015717.png)
 
-![tabletka expanded media player](assets/backdrop-491x250-20261123-015852.png)
+| Compact Capsule on Desktop | Expanded Media Widget |
+| --- | --- |
+| ![tabletka desktop capsule](assets/backdrop-491x250-20261123-015839.png) | ![tabletka expanded media player](assets/backdrop-491x250-20261123-015852.png) |
+
+| 16 Modules Control Panel | Edge Docking, Game Hide & 10 Languages |
+| --- | --- |
+| ![tabletka 16 modules settings](assets/backdrop-647x376-20261122-171356.png) | ![tabletka system settings and 10 languages](assets/backdrop-647x376-20261122-171407.png) |
+
+![tabletka hardware monitors](assets/backdrop-647x300-20261122-171108.png)
 
 ## Key Features
 
 - **Compact Pill Form-Factor:** Edge-dragging top screen capsule with instant expansion into full widgets.
-- **16 Built-in Modules:** Media player with live lyrics, clipboard link downloader, screen backdrop & recorder, screenshot auto-copy, File Shelf, system & market monitors, weather, notes, and quick actions.
-- **Performance & Throttling:** Two-thread download queue and smart background module throttling.
+- **16 Built-in Modules:** Media player with live lyrics, clipboard link downloader, screen backdrop & recorder, screenshot auto-copy, File Pocket, system & market monitors, server pulse, notes/snippets, Pomodoro timer, habits, and quick tools.
+- **Performance & Throttling:** Two-thread download queue, fullscreen game auto-hide, and smart background module throttling.
 - **10 Languages:** Full UI localization (`en`, `ru`, `de`, `fr`, `es`, `he`, `ja`, `ko`, `zh`, `tr`).
 
 ## Distribution Policy
