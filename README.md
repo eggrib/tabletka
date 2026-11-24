@@ -10,15 +10,17 @@ Lightweight native desktop overlay pill and widget center for **Windows (.NET 8 
 
 ![tabletka compact pill](assets/backdrop-392x105-20261123-015717.png)
 
-| Compact Capsule on Desktop | Expanded Media Widget |
+| Compact Capsule on Desktop | Hardware Monitors (CPU / GPU / RAM / Net) |
 | --- | --- |
-| ![tabletka desktop capsule](assets/backdrop-491x250-20261123-015839.png) | ![tabletka expanded media player](assets/backdrop-491x250-20261123-015852.png) |
+| ![tabletka desktop capsule](assets/backdrop-491x250-20261123-015839.png) | ![tabletka hardware monitors](assets/backdrop-647x300-20261122-171108.png) |
 
 | 16 Modules Control Panel | Edge Docking, Game Hide & 10 Languages |
 | --- | --- |
 | ![tabletka 16 modules settings](assets/backdrop-647x376-20261122-171356.png) | ![tabletka system settings and 10 languages](assets/backdrop-647x376-20261122-171407.png) |
 
-![tabletka hardware monitors](assets/backdrop-647x300-20261122-171108.png)
+| Quick Developer Snippets | Mouse-Wheel Timer |
+| --- | --- |
+| ![tabletka snippets module](assets/backdrop-647x300-20261122-171237.png) | ![tabletka timer module](assets/backdrop-647x300-20261122-171306.png) |
 
 ## Key Features
 
