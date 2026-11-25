@@ -1,9 +1,13 @@
 # tabletka
 
+[![Version](https://img.shields.io/badge/Windows_x64-v0.9.8.55-a855f7?style=flat-square&logo=windows11&logoColor=white)](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-0%2F68_Clean-10b981?style=flat-square&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/aa6b9c5a5380b9332d7862bc370f8b810a3b2f295ac582f9996f3e8d9695fed5)
+[![.NET 8](https://img.shields.io/badge/.NET_8-WPF_60_FPS-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo)
+
 Lightweight native desktop overlay pill and widget center for **Windows (.NET 8 / WPF)** with optional **Android** companion sync via `relay.699718.space`.
 
 - **Official Landing & Download:** [tabletka.699718.space](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo)
-- **Latest Windows x64 Installer:** [tabletka_0.9.8.44_x64_Setup.exe](https://699718.space/tabletka/tabletka_0.9.8.44_x64_Setup.exe)
+- **Latest Windows x64 Installer:** [tabletka_0.9.8.55_x64_Setup.exe](https://699718.space/tabletka/tabletka_0.9.8.55_x64_Setup.exe) (`SHA-256: aa6b9c5a…9695fed5` · [VirusTotal 0/68](https://www.virustotal.com/gui/file/aa6b9c5a5380b9332d7862bc370f8b810a3b2f295ac582f9996f3e8d9695fed5))
 - **Contact & Support:** [@eggrib](https://t.me/eggrib)
 
 ## Preview
@@ -31,7 +35,8 @@ Lightweight native desktop overlay pill and widget center for **Windows (.NET 8 
 
 Official builds are distributed exclusively as compiled Windows x64 installers via [tabletka.699718.space](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo) and GitHub Releases. Source code is private to ensure binary integrity and prevent unauthorized clones.
 
-### What's New in v0.9.8.44
+### What's New in v0.9.8.55
+- **Screenshot & Screen Recorder Module:** borderless 0 px capture mode, 30/60 FPS selection, automatic NVENC/libx264 encoder fallback, safe recording finalization on close, and 10-language localization.
+- **Redesigned Crypto & Market Rates:** dark-glass 3-column cards with live mini sparklines, instant USD/RUB/EUR switching, and click-to-copy prices.
+- **Global Hotkeys & CPU/GPU Optimization:** quick hotkeys (`Ctrl+Alt+V/A/M`), faster 60-FPS FFT audio spectrum and hardware sensors, smoother 30-FPS marquee, and zero subscription/timer leaks across modules.
 - **Gaming Mode Glow:** automatic island contour & audio-visualizer palette switch when a game is active (4 presets: Crimson, Emerald, Violet, Amber) + automatic game process priority boost.
-- **Resilient Media & Network Pipeline:** unified download queue with automatic fallback and local proxy detection for smoother clipboard link handling.
-- **Performance & Obfuscation Hardening:** unified SharedHttpService connection pooling, zero-reflection runtime paths, and full JSON model preservation under Obfuscar.
