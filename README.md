@@ -1,14 +1,14 @@
 # tabletka
 
-[![Version](https://img.shields.io/badge/Windows_x64-v0.9.8.55-a855f7?style=flat-square&logo=windows11&logoColor=white)](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo)
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-0%2F68_Clean-10b981?style=flat-square&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/aa6b9c5a5380b9332d7862bc370f8b810a3b2f295ac582f9996f3e8d9695fed5)
+[![Version](https://img.shields.io/badge/Windows_x64-v0.9.8.60-a855f7?style=flat-square&logo=windows11&logoColor=white)](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-Scan_Report-10b981?style=flat-square&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/7799989f5cf61f132c3a6ccca4363ffd0d53b73d9c0204324b5a001b65e1da8e)
 [![.NET 8](https://img.shields.io/badge/.NET_8-WPF_60_FPS-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo)
 
 Lightweight native desktop overlay pill and widget center for **Windows (.NET 8 / WPF)** with optional **tabletkaCompanion (Android)** sync via `relay.699718.space`.
 
 - **Official Landing & Download:** [tabletka.699718.space](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo)
 - **Android Companion App:** [tabletkaCompanion / Android](https://699718.space/companion.html?utm_source=github&utm_medium=readme&utm_campaign=companion)
-- **Latest Windows x64 Installer:** [tabletka_0.9.8.55_x64_Setup.exe](https://699718.space/tabletka/tabletka_0.9.8.55_x64_Setup.exe) (`SHA-256: aa6b9c5a…9695fed5` · [VirusTotal 0/68](https://www.virustotal.com/gui/file/aa6b9c5a5380b9332d7862bc370f8b810a3b2f295ac582f9996f3e8d9695fed5))
+- **Latest Windows x64 Installer:** [tabletka_0.9.8.60_x64_Setup.exe](https://699718.space/tabletka/tabletka_0.9.8.60_x64_Setup.exe) (`SHA-256: 7799989f…65e1da8e` · [VirusTotal](https://www.virustotal.com/gui/file/7799989f5cf61f132c3a6ccca4363ffd0d53b73d9c0204324b5a001b65e1da8e))
 - **Contact & Support:** [@eggrib](https://t.me/eggrib)
 
 ## Preview
@@ -36,8 +36,8 @@ Lightweight native desktop overlay pill and widget center for **Windows (.NET 8 
 
 Official builds are distributed exclusively as compiled Windows x64 installers via [tabletka.699718.space](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo) and GitHub Releases. Source code is private to ensure binary integrity and prevent unauthorized clones.
 
-### What's New in v0.9.8.55
-- **Screenshot & Screen Recorder Module:** borderless 0 px capture mode, 30/60 FPS selection, automatic NVENC/libx264 encoder fallback, safe recording finalization on close, and 10-language localization.
-- **Redesigned Crypto & Market Rates:** dark-glass 3-column cards with live mini sparklines, instant USD/RUB/EUR switching, and click-to-copy prices.
-- **Global Hotkeys & CPU/GPU Optimization:** quick hotkeys (`Ctrl+Alt+V/A/M`), faster 60-FPS FFT audio spectrum and hardware sensors, smoother 30-FPS marquee, and zero subscription/timer leaks across modules.
-- **Gaming Mode Glow:** automatic island contour & audio-visualizer palette switch when a game is active (4 presets: Crimson, Emerald, Violet, Amber) + automatic game process priority boost.
+### What's New in v0.9.8.60
+- **Deep Performance & DWM Optimization:** lazy initialization for all 16 modules (instant startup, zero background CPU load from inactive widgets), >2× smaller transparent DWM layer, and zero allocations on mouse hover/scroll.
+- **UX Upgrades:** keyboard shortcuts (`Esc` / `←` / `→`) inside the expanded pill, input-focus protection against accidental collapse, middle-click (Play/Pause & pin), widget search filter, and quick `↗` jump to full settings.
+- **Installer 2.0:** clean 2-step setup localized in all 10 languages with offline dictionaries and full publisher metadata.
+- **tabletkaCompanion Sync & Fixes:** rock-solid Relay delivery for remote commands/messages/images with 3-level double-tap guard, plus fixed background timer leaks after exiting fullscreen apps.
