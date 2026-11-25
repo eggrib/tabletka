@@ -1,14 +1,14 @@
 # tabletka
 
-[![Version](https://img.shields.io/badge/Windows_x64-v0.9.8.60-a855f7?style=flat-square&logo=windows11&logoColor=white)](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo)
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-Scan_Report-10b981?style=flat-square&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/7799989f5cf61f132c3a6ccca4363ffd0d53b73d9c0204324b5a001b65e1da8e)
+[![Version](https://img.shields.io/badge/Windows_x64-v0.9.8.61-a855f7?style=flat-square&logo=windows11&logoColor=white)](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-Scan_Report-10b981?style=flat-square&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/1d6e151c053e649e6c6ab113f66c8202e391481a4c46dfec7f5726b65ae922ba)
 [![.NET 8](https://img.shields.io/badge/.NET_8-WPF_60_FPS-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo)
 
 Lightweight native desktop overlay pill and widget center for **Windows (.NET 8 / WPF)** with optional **tabletkaCompanion (Android)** sync via `relay.699718.space`.
 
 - **Official Landing & Download:** [tabletka.699718.space](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo)
 - **Android Companion App:** [tabletkaCompanion / Android](https://699718.space/companion.html?utm_source=github&utm_medium=readme&utm_campaign=companion)
-- **Latest Windows x64 Installer:** [tabletka_0.9.8.60_x64_Setup.exe](https://699718.space/tabletka/tabletka_0.9.8.60_x64_Setup.exe) (`SHA-256: 7799989f…65e1da8e` · [VirusTotal](https://www.virustotal.com/gui/file/7799989f5cf61f132c3a6ccca4363ffd0d53b73d9c0204324b5a001b65e1da8e))
+- **Latest Windows x64 Installer:** [tabletka_0.9.8.61_x64_Setup.exe](https://699718.space/tabletka/tabletka_0.9.8.61_x64_Setup.exe) (`SHA-256: 1d6e151c…5ae922ba` · [VirusTotal](https://www.virustotal.com/gui/file/1d6e151c053e649e6c6ab113f66c8202e391481a4c46dfec7f5726b65ae922ba))
 - **Contact & Support:** [@eggrib](https://t.me/eggrib)
 
 ## Preview
@@ -36,8 +36,8 @@ Lightweight native desktop overlay pill and widget center for **Windows (.NET 8 
 
 Official builds are distributed exclusively as compiled Windows x64 installers via [tabletka.699718.space](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo) and GitHub Releases. Source code is private to ensure binary integrity and prevent unauthorized clones.
 
-### What's New in v0.9.8.60
-- **Deep Performance & DWM Optimization:** lazy initialization for all 16 modules (instant startup, zero background CPU load from inactive widgets), >2× smaller transparent DWM layer, and zero allocations on mouse hover/scroll.
-- **UX Upgrades:** keyboard shortcuts (`Esc` / `←` / `→`) inside the expanded pill, input-focus protection against accidental collapse, middle-click (Play/Pause & pin), widget search filter, and quick `↗` jump to full settings.
-- **Installer 2.0:** clean 2-step setup localized in all 10 languages with offline dictionaries and full publisher metadata.
-- **tabletkaCompanion Sync & Fixes:** rock-solid Relay delivery for remote commands/messages/images with 3-level double-tap guard, plus fixed background timer leaks after exiting fullscreen apps.
+### What's New in v0.9.8.61
+- **Lower RAM Footprint:** capped SMTC album-art decoding at `128 px` (-99% cover bitmap memory, saving up to 16 MB), enabled `.NET 8 DATAS` adaptive GC with LOH compaction, and removed duplicate locale dictionaries from RAM.
+- **Zero Idle & Gaming CPU:** media UI timer and COM volume polling sleep completely when paused/collapsed, and 100 Hz `WasapiLoopbackCapture` stops during fullscreen games and when hidden to tray (offloading both `tabletka.exe` and Windows `audiodg.exe`).
+- **About Dialog, Installer 2.0 & UX:** one-click Update button, live 10-language switcher with localized changelog, 2-step installer, and `Esc` / `←` / `→` shortcuts.
+- **Background & GPU Fixes:** stopped inactive 1 Hz background timers, detached offscreen D3D shadow from hidden sub-pill, and switched game-priority boosts to zero-allocation Win32 calls.
