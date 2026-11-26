@@ -1,14 +1,14 @@
 # tabletka
 
 [![Version](https://img.shields.io/badge/Windows_x64-v0.9.8.61-a855f7?style=flat-square&logo=windows11&logoColor=white)](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo)
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-Scan_Report-10b981?style=flat-square&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/1d6e151c053e649e6c6ab113f66c8202e391481a4c46dfec7f5726b65ae922ba)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-0%2F68_Clean-10b981?style=flat-square&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/1d6e151c053e649e6c6ab113f66c8202e391481a4c46dfec7f5726b65ae922ba)
 [![.NET 8](https://img.shields.io/badge/.NET_8-WPF_60_FPS-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo)
 
 Lightweight native desktop overlay pill and widget center for **Windows (.NET 8 / WPF)** with optional **tabletkaCompanion (Android)** sync via `relay.699718.space`.
 
 - **Official Landing & Download:** [tabletka.699718.space](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo)
 - **Android Companion App:** [tabletkaCompanion / Android](https://699718.space/companion.html?utm_source=github&utm_medium=readme&utm_campaign=companion)
-- **Latest Windows x64 Installer:** [tabletka_0.9.8.61_x64_Setup.exe](https://699718.space/tabletka/tabletka_0.9.8.61_x64_Setup.exe) (`SHA-256: 1d6e151c…5ae922ba` · [VirusTotal](https://www.virustotal.com/gui/file/1d6e151c053e649e6c6ab113f66c8202e391481a4c46dfec7f5726b65ae922ba))
+- **Latest Windows x64 Installer:** [tabletka_0.9.8.61_x64_Setup.exe](https://699718.space/tabletka/tabletka_0.9.8.61_x64_Setup.exe) (`SHA-256: 1d6e151c…5ae922ba` · [VirusTotal 0/68](https://www.virustotal.com/gui/file/1d6e151c053e649e6c6ab113f66c8202e391481a4c46dfec7f5726b65ae922ba))
 - **Contact & Support:** [@eggrib](https://t.me/eggrib)
 
 ## Preview
