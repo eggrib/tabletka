@@ -1,14 +1,14 @@
 # tabletka
 
-[![Version](https://img.shields.io/badge/Windows_x64-v0.9.8.65-a855f7?style=flat-square&logo=windows11&logoColor=white)](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo)
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-0%2F68_Clean-10b981?style=flat-square&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/f40685ebf6e045ad09b46d7b25c27a5cc2b13ca0eb8405ffd1477bfc0ab0ef7e)
+[![Version](https://img.shields.io/badge/Windows_x64-v0.9.8.70-a855f7?style=flat-square&logo=windows11&logoColor=white)](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-0%2F68_Clean-10b981?style=flat-square&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/6d66a531a83336b3643b866d108a2e048daccae8d90d36b3f795e22e9290a123)
 [![.NET 8](https://img.shields.io/badge/.NET_8-WPF_60_FPS-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo)
 
 Lightweight native desktop overlay pill and widget center for **Windows (.NET 8 / WPF)** with optional **tabletkaCompanion (Android)** sync via `relay.699718.space`.
 
 - **Official Landing & Download:** [tabletka.699718.space](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo)
 - **Android Companion App:** [tabletkaCompanion / Android](https://699718.space/companion.html?utm_source=github&utm_medium=readme&utm_campaign=companion)
-- **Latest Windows x64 Installer:** [tabletka_0.9.8.65_x64_Setup.exe](https://699718.space/tabletka/tabletka_0.9.8.65_x64_Setup.exe) (`SHA-256: f40685eb…0ab0ef7e` · [VirusTotal 0/68](https://www.virustotal.com/gui/file/f40685ebf6e045ad09b46d7b25c27a5cc2b13ca0eb8405ffd1477bfc0ab0ef7e))
+- **Latest Windows x64 Installer:** [tabletka_0.9.8.70_x64_Setup.exe](https://699718.space/tabletka/tabletka_0.9.8.70_x64_Setup.exe) (`SHA-256: 6d66a531…9290a123` · [VirusTotal 0/68](https://www.virustotal.com/gui/file/6d66a531a83336b3643b866d108a2e048daccae8d90d36b3f795e22e9290a123))
 - **Contact & Support:** [@eggrib](https://t.me/eggrib)
 
 ## Preview
@@ -36,8 +36,8 @@ Lightweight native desktop overlay pill and widget center for **Windows (.NET 8 
 
 Official builds are distributed exclusively as compiled Windows x64 installers via [tabletka.699718.space](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo) and GitHub Releases. Source code is private to ensure binary integrity and prevent unauthorized clones.
 
-### What's New in v0.9.8.65
-- **Safe Categorized Disk Cleaner:** Interactive category checkboxes (`Temp`, `Cache`, `Logs`, `Recycle Bin` — Recycle Bin unchecked by default), live size recount, folder-breakdown tooltips on hover, and strict OS/GPU system paths only (`%TEMP%`, `Windows\Temp`, GPU shader & Windows Update caches, WER dumps) with immediate RAM cleanup.
-- **Complete UI Anti-Freeze & RelaySync Stability:** Moved CoreAudio COM calls, background STA audio output switching, direct non-blocking Win32 `CF_UNICODETEXT` clipboard reads, system proxy updates, and drive/network probes off the WPF UI thread; eliminated 22-second WebSocket reconnect loops on `relay.699718.space`.
-- **Voice Recorder 2.0 & Call Studio:** 3 one-click CoreAudio WASAPI 48 kHz capture modes (`🎙 Mic`, `🎙+🔊 Mic+PC` with real-time resampling and soft-clip limiting, and `🔊 PC Audio` loopback), live 28-bar waveform, Pause/Resume (`⏸ / ▶`), built-in mini-player, and global `Ctrl+Alt+D` hotkey.
-- **Zero Idle/Gaming CPU & Installer Refinements:** Persistent first-install settings across updates, 4 Audio Glow color modes, `128 px` SMTC cover decoding, `.NET 8 DATAS` adaptive GC, and automatic 100 Hz WASAPI/timer sleep in fullscreen games and tray.
+### What's New in v0.9.8.70
+- **News 2.0, Traffic 2.0 & Habit Tracker 2.0:** Interactive category filter tabs (`All`, local city, country, `World`, `IT`), 16-item scrollable feed, relative timestamps, and read-state dimming in News; coordinate-matched congestion scores across 55 cities with traffic-adjusted ETA, arrival clock, `From ↔ To` route swap, and live Photon OSM address autocomplete in Traffic; natural `05:00` biological day rollover, 1-click Undo, sleep toggle, and 7-day mini bar chart in Habit Tracker.
+- **Live Lyrics 2.0 & Voice Studio:** Smooth karaoke auto-scroll with click-to-seek on any lyric line, adaptive font sizing, and local lyrics caching alongside 3 WASAPI 48 kHz voice/call capture modes (`Mic`, `Mic+PC`, `PC Audio`).
+- **ECDSA P-256 Supply-Chain Security & Multi-Mirror OTA:** Offline `ECDSA P-256` manifest signature verification (`SHA-256` + deterministic `.NET 8` build paths) and automatic multi-mirror update failover with 5-second per-mirror timeouts.
+- **Zero Idle/Gaming CPU & 10 Languages:** Native `.NET 8 / WPF` 60 FPS overlay with `DATAS` adaptive GC, automatic WASAPI/timer sleep in fullscreen games and tray, and full localization across 10 languages.
