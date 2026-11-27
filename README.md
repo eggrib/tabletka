@@ -1,14 +1,14 @@
 # tabletka
 
-[![Version](https://img.shields.io/badge/Windows_x64-v0.9.8.64-a855f7?style=flat-square&logo=windows11&logoColor=white)](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo)
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-0%2F68_Clean-10b981?style=flat-square&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/aac80299cdda284c3e951c1fbd3ee865bd090ed9e455caf119728b34432d2cfd)
+[![Version](https://img.shields.io/badge/Windows_x64-v0.9.8.65-a855f7?style=flat-square&logo=windows11&logoColor=white)](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-0%2F67_Clean-10b981?style=flat-square&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/c83cd01da39231ae080366012aaa2943b34ad38869cf7e055fda6a4a2e302948)
 [![.NET 8](https://img.shields.io/badge/.NET_8-WPF_60_FPS-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo)
 
 Lightweight native desktop overlay pill and widget center for **Windows (.NET 8 / WPF)** with optional **tabletkaCompanion (Android)** sync via `relay.699718.space`.
 
 - **Official Landing & Download:** [tabletka.699718.space](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo)
 - **Android Companion App:** [tabletkaCompanion / Android](https://699718.space/companion.html?utm_source=github&utm_medium=readme&utm_campaign=companion)
-- **Latest Windows x64 Installer:** [tabletka_0.9.8.64_x64_Setup.exe](https://699718.space/tabletka/tabletka_0.9.8.64_x64_Setup.exe) (`SHA-256: aac80299…432d2cfd` · [VirusTotal 0/68](https://www.virustotal.com/gui/file/aac80299cdda284c3e951c1fbd3ee865bd090ed9e455caf119728b34432d2cfd))
+- **Latest Windows x64 Installer:** [tabletka_0.9.8.65_x64_Setup.exe](https://699718.space/tabletka/tabletka_0.9.8.65_x64_Setup.exe) (`SHA-256: c83cd01d…2e302948` · [VirusTotal 0/67](https://www.virustotal.com/gui/file/c83cd01da39231ae080366012aaa2943b34ad38869cf7e055fda6a4a2e302948))
 - **Contact & Support:** [@eggrib](https://t.me/eggrib)
 
 ## Preview
@@ -36,8 +36,7 @@ Lightweight native desktop overlay pill and widget center for **Windows (.NET 8 
 
 Official builds are distributed exclusively as compiled Windows x64 installers via [tabletka.699718.space](https://tabletka.699718.space/?utm_source=github&utm_medium=readme&utm_campaign=tabletka_repo) and GitHub Releases. Source code is private to ensure binary integrity and prevent unauthorized clones.
 
-### What's New in v0.9.8.64
-- **Voice Recorder 2.0 & Call Studio:** 3 one-click CoreAudio WASAPI 48 kHz capture modes (`🎙 Mic`, `🎙+🔊 Mic+PC` with real-time resampling and soft-clip limiting for synchronized call & lecture recording, and `🔊 PC Audio` loopback), Windows microphone picker, and one-click OS unmute.
-- **Live Waveform & Built-in Mini-Player:** 28-bar real-time scrolling waveform, seamless Pause / Resume (`⏸ / ▶`) into a single file, cancel take (`✕`), `MP3 (192 kbps)` / `M4A` / `WAV` output formats, instant playback & seek bar right inside `tabletka`, one-click file copy to clipboard (`📋` → `Ctrl+V` into chat apps), Drag & Drop, and global `Ctrl+Alt+D` hotkey.
-- **Audio Glow Color Modes & Compact Pill Controls:** 4 audio glow & spectrum presets (`Album Art`, `Signature Cyan`, `White Monochrome`, `Windows Accent`), directly clickable Pause/Stop recording buttons on the collapsed pill without expanding, and enriched hardware/timezone diagnostics.
-- **Zero Idle/Gaming CPU & .NET 8 Reliability:** `128 px` SMTC cover decoding (-99% cover bitmap RAM), `.NET 8 DATAS` adaptive GC, automatic 100 Hz WASAPI/timer sleep in fullscreen games and tray, and hardened `.NET 8` JSON state persistence.
+### What's New in v0.9.8.65
+- **Installer & Stability Refinements:** Persistent first-install settings across updates, cleaner in-app link handling, and general UI stability improvements.
+- **Voice Recorder 2.0 & Call Studio:** 3 one-click CoreAudio WASAPI 48 kHz capture modes (`🎙 Mic`, `🎙+🔊 Mic+PC` with real-time resampling and soft-clip limiting, and `🔊 PC Audio` loopback), live 28-bar waveform, Pause/Resume (`⏸ / ▶`), built-in mini-player, and global `Ctrl+Alt+D` hotkey.
+- **Zero Idle/Gaming CPU & .NET 8 Reliability:** `128 px` SMTC cover decoding, `.NET 8 DATAS` adaptive GC, and automatic 100 Hz WASAPI/timer sleep in fullscreen games and tray.
